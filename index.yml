@@ -4,5 +4,5 @@
   tasks:
      - name: test the ntpd
        service:
-           -name: ntpd
-            state: present
+           - name: ntpd
+             state: latest
